@@ -1,0 +1,63 @@
+.shop-container {
+  display: flex;
+  justify-content: center;
+}
+.shop-image img {
+  max-height: 200px;
+}
+table {
+  border-collapse:collapse;
+  margin-left: 20px;
+}
+tr:first-child {
+  border-top: 2px solid #d33c44;
+}
+tr {
+  border-bottom: 1px dashed #999;
+}
+tr:last-child {
+  border-bottom: 2px solid #d33c44;
+}
+th, td {
+  padding: 10px;
+}
+th {
+  color: #3a0c0f;
+}
+caption {
+  caption-side: bottom;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  color: #989898;
+  font-size: 0.9em;
+  text-align: right;
+}
+
+.free_test {
+  margin: 40px auto;
+  width: 70%;
+  border: solid 1px #dbdbdb;
+  border-radius: 20px;
+  padding: 30px 40px;
+}
+
+.news-container {
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #fff;
+}
+.news-container ul {
+  width: max-content;
+  margin: auto;
+}
+.news-container li {
+  padding: 10px;
+  border-bottom: 1px dashed #999;
+}
+.news-container li span {
+  font-size: 0.9em;
+  margin-right: 10px;
+}
+.news-container ul a:hover{
+  opacity: 0.5;
+}

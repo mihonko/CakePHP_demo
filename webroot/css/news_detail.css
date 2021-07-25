@@ -1,0 +1,35 @@
+.main-item {
+  background-color: #fdfdf8;
+}
+.news-container {
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #fff;
+}
+
+h3 {
+  font-size: 1.3em;
+  border-bottom: solid 3px #d33c44;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.title-area {
+  display: flex;
+  flex-direction: column;
+}
+.title-area span {
+  margin: 0 0.5em 0 auto;
+  color: #989898;
+}
+.text-container {
+  padding: 10px;
+  line-height: 2;
+}
+.shop-link {
+  text-align: right;
+}
+.shop-link a {
+  text-decoration: underline;
+  color: #d33c44;
+}

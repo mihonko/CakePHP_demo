@@ -1,0 +1,168 @@
+header {
+  display: flex;
+  background-color: #d33c44;
+  padding: 0 30px;
+}
+.logo {
+  flex: 1;
+}
+.logo a {
+  display: block;
+  width: max-content;
+  padding: 25px 15px;
+  color: #fff;
+  font-weight: bold;
+}
+.logo a:hover {
+  background-color: #db6d73;
+}
+nav ul a li {
+  display: inline-block;
+  padding: 25px 15px;
+  color: #fff;
+}
+nav ul a li:hover {
+  background-color: #db6d73;
+}
+
+.main-item {
+  padding:60px 0;
+}
+.main-item:nth-child(even) {
+  background-color: #fdfdf8;
+}
+.main-container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+.main-container h2 {
+  font-size: 1.5rem;
+  line-height: 1.4rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #3a0c0f;
+  font-weight: bold;
+}
+
+.paginator {
+  margin: 20px auto;
+  width: max-content;
+}
+ul.pagination {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+ul.pagination li {
+  display: inline;
+  padding: 0;
+}
+ul.pagination li.disabled a {
+  display: none;
+}
+ul.pagination li a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+ul.pagination li.active a {
+  background-color: #3a0c0f;
+  color: white;
+}
+ul.pagination li a:hover {background-color: #efefef;}
+ul.pagination li.active a:hover {background-color: #3a0c0f;}
+
+footer {
+  width: 100%;
+  background-color: #efefef;
+  color: #989898;
+  padding: 10px 0;
+}
+.footer-text {
+  text-align: center;
+}
+
+/* 店舗検索 */
+.serch-container table {
+  width: 100%;
+}
+.serch-container table tr th {
+  vertical-align: middle;
+  font-weight: normal;
+}
+.serch-container table tr {
+  border-top: solid 1px #efefef;
+  border-bottom: solid 1px #efefef;
+}
+.serch-container table tr th,td {
+  padding: 20px;
+}
+
+input {
+  background-color: transparent;
+  border: 0.1rem solid #d1d1d1;
+  border-radius: .4rem;
+  padding: 6px;
+}
+.select-item a {
+  position: relative;
+  padding: 0em .3em 0 .9em;
+  color: #D33C44;
+}
+.select-item a:hover {
+  opacity: 0.5;
+}
+.select-item a::before {
+  position: absolute;
+  content: '';
+  display: block;
+  top: .5em;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  border-right: 3px solid #D33C44;
+  border-bottom: 3px solid #D33C44;
+  transform: rotate(-45deg);
+}
+.select-item p {
+  display: inline-block;
+  width: 150px;
+  padding: 5px;
+}
+
+.btn-home {
+  background: #D33C44;
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-color: #D33C44;
+}
+.btn-home:hover {
+  opacity: 0.5;
+}
+
+/* 店舗からのお知らせ */
+.news-container {
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #fff;
+}
+.news-container ul {
+  width: max-content;
+  margin: auto;
+}
+.news-container li {
+  padding: 10px;
+  border-bottom: 1px dashed #999;
+}
+.news-container li span {
+  font-size: 0.9em;
+  margin-right: 10px;
+}
+.news-container ul a:hover{
+  opacity: 0.5;
+}

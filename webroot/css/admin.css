@@ -1,0 +1,22 @@
+input, select, textarea {
+  margin-bottom: 0;
+}
+label {
+    display: inline;
+    font-size: unset;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+input[type="radio"] {
+    margin: 0 5px;
+}
+th {
+  width: 180px;
+}
+th.actions {
+  width: 130px;
+}
+.error-message {
+  color: #d33c43;
+}
